@@ -1,0 +1,49 @@
+
+.container input[type="text"] {
+  width: 70%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: border-color 0.3s;
+}
+
+.container input[type="text"]:focus {
+  outline: none;
+  border-color: #f5a458;
+}
+
+.container button {
+  padding: 10px 16px;
+  background-color: #f5a458;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.container button:hover {
+  background-color: #f5a458;
+}
+
+.container ul {
+  margin-top: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #f0f4f8;
+  border-radius: 6px;
+  transition: transform 0.2s;
+}
+
+.container li:hover {
+  transform: scale(1.02);
+  background-color: #e6f0fb;
+}

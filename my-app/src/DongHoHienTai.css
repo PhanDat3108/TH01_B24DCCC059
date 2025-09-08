@@ -1,0 +1,22 @@
+.dong-ho-container {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+
+}
+
+.thoi-gian {
+  font-size: 36px;
+  font-weight: bold;
+  color: #f58e3a;
+  border: 2px dashed #f7ab49;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  transition: all 0.3s;
+}
+
+.thoi-gian:hover {
+  background-color: #e6f0fa;
+  transform: scale(1.05);
+}
